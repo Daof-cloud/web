@@ -5,3 +5,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Simulación de un mensaje de éxito
     alert('Gracias por contactarnos. Responderemos pronto.');
 });
+
