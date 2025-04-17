@@ -1,5 +1,7 @@
-// Mensaje en consola
-console.log("Bienvenido a MiEmpresa - Plantilla Web activa.");
+// Agregar funcionalidad al formulario de contacto
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evitar el envío real del formulario
 
-// Aquí podrías meter animaciones, validaciones, etc.
-
+    // Simulación de un mensaje de éxito
+    alert('Gracias por contactarnos. Responderemos pronto.');
+});
