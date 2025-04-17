@@ -4,21 +4,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F2F2F2; /* Fondo gris claro */
 }
 
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #1E2A38; /* Azul oscuro */
+    color: #FFFFFF; /* Blanco */
     padding: 20px;
     text-align: center;
 }
 
-nav {
-    margin-top: 10px;
-}
-
 nav a {
-    color: white;
+    color: #FFC107; /* Naranja */
     margin: 0 15px;
     text-decoration: none;
 }
@@ -26,58 +23,17 @@ nav a {
 .section {
     padding: 20px;
     text-align: center;
-}
-
-.section:nth-child(odd) {
-    background-color: #f4f4f4;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-input, textarea, button {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
+    background-color: #FFFFFF; /* Blanco */
+    margin: 10px 20px; /* Espaciado */
+    border-radius: 8px; /* Bordes redondeados */
 }
 
 footer {
-    background-color: #007bff;
-    color: white;
+    background-color: #1E2A38; /* Azul oscuro */
+    color: #FFC107; /* Naranja */
     text-align: center;
     padding: 10px;
 }
 
-/* Diseño responsivo */
-@media (max-width: 768px) {
-    .section {
-        padding: 10px;
-    }
-}
 
 
