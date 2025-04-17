@@ -185,4 +185,29 @@
     text-align: center;
     font-size: 14px;
   }
-  
+  @media (max-width: 768px) { /* Pantallas de tamaño medio como tablets */
+    .container {
+        padding: 15px;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) { /* Pantallas pequeñas como móviles */
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
