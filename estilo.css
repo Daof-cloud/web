@@ -1,38 +1,33 @@
-/* Estilos básicos */
+/* Tipografía */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F2F2F2; /* Fondo gris claro */
+    background-color: #F2F2F2;
 }
 
 header {
-    background-color: #1E2A38; /* Azul oscuro */
-    color: #FFFFFF; /* Blanco */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1E2A38;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
 }
 
 nav a {
-    color: #FFC107; /* Naranja */
+    font-family: 'Montserrat', sans-serif;
+    color: #FFC107;
     margin: 0 15px;
     text-decoration: none;
 }
 
-.section {
-    padding: 20px;
-    text-align: center;
-    background-color: #FFFFFF; /* Blanco */
-    margin: 10px 20px; /* Espaciado */
-    border-radius: 8px; /* Bordes redondeados */
+h1, h2 {
+    font-weight: 700; /* Texto más destacado */
 }
 
-footer {
-    background-color: #1E2A38; /* Azul oscuro */
-    color: #FFC107; /* Naranja */
-    text-align: center;
-    padding: 10px;
+p, li {
+    font-weight: 400; /* Texto normal */
 }
 
 
