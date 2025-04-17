@@ -32,6 +32,15 @@ nav a {
     background-color: #f4f4f4;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -62,7 +71,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
 }
 
 /* Diseño responsivo */
@@ -71,4 +79,5 @@ footer {
         padding: 10px;
     }
 }
+
 
